@@ -1,0 +1,94 @@
+PLACEHOLDER SPRITES NEEDED FOR BYTEBIKE
+
+This file contains instructions for creating the placeholder sprites needed to get ByteBike up and running. You can create these yourself or use temporary colored rectangles until you have final art.
+
+=== PLAYER SPRITES ===
+
+1. Rider_Idle.png (8×8 pixels)
+   - Simple black silhouette of a rider
+   - Transparent background
+   - Save in Assets/Sprites/Player/
+
+=== BIKE SPRITES ===
+
+2. Bike_Base.png (32×16 pixels)
+   - Simple bike silhouette in black or dark color
+   - Horizontal facing right
+   - Transparent background
+   - Save in Assets/Sprites/BikeSkins/
+
+=== OBSTACLE SPRITES ===
+
+3. Ramp.png (16×16 pixels)
+   - Right triangle shape (brown or gray)
+   - Angled ramp facing upward-right
+   - Save in Assets/Sprites/Obstacles/
+
+4. MudPit.png (16×16 pixels)
+   - Flat rectangle (dark brown or black)
+   - Represents muddy ground section
+   - Save in Assets/Sprites/Obstacles/
+
+5. OilSlick.png (16×16 pixels)
+   - Elliptical shape (purple-black)
+   - Shimmery oil appearance
+   - Save in Assets/Sprites/Obstacles/
+
+=== POWER-UP SPRITES ===
+
+6. NitroCan.png (16×16 pixels)
+   - Red canister shape
+   - Can be simple rectangle with rounded top
+   - Save in Assets/Sprites/PowerUps/
+
+7. ShieldStar.png (16×16 pixels)
+   - Yellow star shape (5-pointed)
+   - Bright, eye-catching
+   - Save in Assets/Sprites/PowerUps/
+
+8. DoubleJump.png (16×16 pixels)
+   - Green diamond shape
+   - Simple geometric diamond
+   - Save in Assets/Sprites/PowerUps/
+
+=== SPRITE IMPORT SETTINGS ===
+
+For ALL sprites in Unity:
+1. Set Sprite Mode: Single
+2. Set Pixels Per Unit: 16
+3. Set Filter Mode: Point (no filter)
+4. Set Compression: None
+5. Set Max Size: 32 (for small sprites)
+6. Ensure "Generate Mip Maps" is unchecked
+
+=== QUICK CREATION TIPS ===
+
+- Use any pixel art tool (Aseprite, Photoshop, GIMP, MS Paint)
+- Keep it simple - solid colors work fine for placeholders
+- Ensure transparent backgrounds (PNG format)
+- Make them pixel-perfect at the specified sizes
+- Use high contrast colors for visibility
+
+=== AUDIO PLACEHOLDERS ===
+
+You'll also need these audio files:
+- RetroLoop.mp3 (any 4-bar chiptune loop)
+- Jump.wav (short blip sound)
+- Boost.wav (whoosh or power-up sound)
+- HitMud.wav (squelch or thud)
+- Pickup.wav (coin or ding sound)
+
+Place audio files in:
+- Music: Assets/Audio/Music/
+- SFX: Assets/Audio/SFX/
+
+=== GETTING STARTED ===
+
+1. Create these placeholder sprites first
+2. Import them into Unity using the settings above
+3. Set up your scene with the GameObjects
+4. Assign the sprites to the appropriate SpriteRenderer components
+5. Test the game mechanics with placeholder art
+6. Replace with final art assets later
+
+The game will function fully with simple placeholder sprites - the focus should be on getting the mechanics working first! 
